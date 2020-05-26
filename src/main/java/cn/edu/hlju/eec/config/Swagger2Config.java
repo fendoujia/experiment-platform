@@ -29,9 +29,9 @@ public class Swagger2Config {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("experiment-platform-doc")
-                .description("https://github.com/xuzhongjian")
-                .termsOfServiceUrl("https://github.com/xuzhongjian")
+                .title("黑大实验平台-接口文档")
+                .description("https://github.com/xuzhongjian/experiment-platform")
+                .termsOfServiceUrl("https://github.com/xuzhongjian/experiment-platform")
                 .version("v1")
                 .build();
     }
